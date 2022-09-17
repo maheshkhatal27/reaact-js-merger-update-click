@@ -1,0 +1,80 @@
+.main-bg-container {
+  background-color: #ffd569;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.items-container {
+  background-color: #ffffff;
+  margin-top: 35px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+}
+.fruit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.mango-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banana-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 22px;
+  color: #000000;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 7px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  height: 45px;
+  margin: 15px;
+}
+.fruit {
+  color: #ffd569;
+}
+.img-resize {
+  height: 240px;
+  width: 240px;
+}
+
+@media screen and (max-width: 576px) {
+  .items-container {
+    width: 95%;
+    height: 95%;
+  }
+  .fruit-container {
+    flex-direction: column;
+  }
+  .button {
+    width: 90px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .img-resize {
+    height: 190px;
+    width: 190px;
+  }
+}
